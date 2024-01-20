@@ -18,7 +18,7 @@ void liangwei(int a){
     	cout<<num2[b];
 	}
    } 
-}/*¹¹ÔìÒ»¸öÁ½Î»ÊýµÄº¯Êý£¬Ö÷ÒªÎªÁË½â¾öÏñtwenty-oneÕâÑùµÄ£¬ÎªÏÂÃæÈýÎ»Êýº¯Êý×ö»ù´¡*/ 
+}/*æž„é€ ä¸€ä¸ªä¸¤ä½æ•°çš„å‡½æ•°ï¼Œä¸»è¦ä¸ºäº†è§£å†³åƒtwenty-oneè¿™æ ·çš„ï¼Œä¸ºä¸‹é¢ä¸‰ä½æ•°å‡½æ•°åšåŸºç¡€*/ 
 void sanwei( int a){
    if(a>0&&a<20){
    	cout<<num1[a];
@@ -38,7 +38,7 @@ void sanwei( int a){
 		cout<<num1[b]<<" hundred ";
 		}
 	  }
-}/*¹¹ÔìÒ»¸öÈýÎ»ÊýµÄº¯Êý£¬Ê£ÏÂµÄ¾ÅÎ»Êý¾Í¿ÉÒÔÀûÓÃÈý¸öÈýÎ»Êý*/ 
+}/*æž„é€ ä¸€ä¸ªä¸‰ä½æ•°çš„å‡½æ•°ï¼Œå‰©ä¸‹çš„ä¹ä½æ•°å°±å¯ä»¥åˆ©ç”¨ä¸‰ä¸ªä¸‰ä½æ•°*/ 
 void shuchu(int a){
 	cin>>a;
     string english;
@@ -76,15 +76,15 @@ void shuchu(int a){
 }
 
 int main(){
-	cout<<"ÀîöÎÁÁ"<<endl; 
+	cout<<"liang"<<endl; 
 	for(int i=0;i<30;i++){
 	
-	cout<<"Êä³öÒ»¸öÕûÊý£º";
+	cout<<"è¾“å‡ºä¸€ä¸ªæ•´æ•°ï¼š";
 	shuchu(i) ;
 	}
 	/*int x,y,z;
 	shuchu(x);
 	shuchu(y);
 	shuchu(z);
-	Õâ¸öÊÇÉÏÃæÄÇ¸öµÄ¼ò»¯°æ£¬Ö»ÄÜÅªÈý¸ö*/
+	è¿™ä¸ªæ˜¯ä¸Šé¢é‚£ä¸ªçš„ç®€åŒ–ç‰ˆï¼Œåªèƒ½å¼„ä¸‰ä¸ª*/
 }
